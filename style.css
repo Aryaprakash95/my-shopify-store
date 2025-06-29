@@ -1,0 +1,14 @@
+body {
+    font-family: sans-serif;
+    padding: 2rem;
+  }
+  #product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  .product {
+    border: 1px solid #ccc;
+    padding: 1rem;
+  }
+  
